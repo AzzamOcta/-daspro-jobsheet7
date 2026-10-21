@@ -29,13 +29,12 @@ public class SiakadWhile09 {
                 } else {
                     System.out.println("Nilai mahasiswa ke-" + (i + 1) + " E");
                 }
-
-                i++;
             } else {
                 System.out.println("Nilai tidak valid. Masukkan lagi yang valid!");
+                continue;
             }
             
-            
+            i++;
         }
     }
 }
