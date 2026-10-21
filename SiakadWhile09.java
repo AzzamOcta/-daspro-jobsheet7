@@ -14,7 +14,7 @@ public class SiakadWhile09 {
             nilai = sc.nextInt();
 
             if (nilai >= 0 && nilai <= 100) {
-                if (nilai <= 100 & nilai > 80) {
+                if (nilai <= 100 && nilai > 80) {
                     System.out.println("Nilai mahasiswa ke-" + (i + 1) + " A. Bagus, pertahankan nilainya ");
                 } else if (nilai <= 80 && nilai > 73) {
                     System.out.println("Nilai mahasiswa ke-" + (i + 1) + " B+");

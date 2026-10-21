@@ -25,10 +25,6 @@ public class BioskopKu09 {
                 if (adaPelanggan.equalsIgnoreCase("ya")) {
                     System.out.print("Masukkan jumlah pemasukan tiket ke-"+ i +": ");
                     tiket = sc.nextDouble();
-                    
-                    if (tiket < 0) {
-                        
-                    }
 
                     if (tiket >= 10) {
                         diskon = 0.15;
