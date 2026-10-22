@@ -30,7 +30,7 @@ public class BioskopKu09 {
                         diskon = 0.15;
                     } else if (tiket >= 4) {
                         diskon = 0.10;
-                    } else if (tiket >= 0) {
+                    } else if (tiket > 0) {
                         diskon = 0;
                     } else {
                         tumbal = sc.nextLine();
